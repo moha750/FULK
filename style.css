@@ -20,7 +20,7 @@
     color: red;
     display: flex;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 span {
@@ -36,7 +36,7 @@ span {
 .two {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .three {
@@ -79,12 +79,26 @@ input {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
 footer h1 {
-    color: brown;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
 }
 
 img {
-    width: 50px;
+    width: 110px;
+    margin-right: 10px;
+}
+
+i {
+    color: #fff;
+    margin-top: 5px;
+    padding: 0px 20px;
+    font-size: 36px;
 }
 
 @media (min-width: 800px) and (max-width: 1000px) {
@@ -105,12 +119,41 @@ img {
         border-radius: 20px;
         width: 95%;
     }
+
+    footer {
+        margin-top: 60px;
+        text-align: center;
+    }
+    
+    footer h1 {
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+    }
+    
+    img {
+        width: 90px;
+        margin-right: 10px;
+    }
+    
+    i {
+        color: #fff;
+        margin-top: 5px;
+        padding: 0px 20px;
+        font-size: 30px;
+    }
 }
 
 @media (min-width: 400px) and (max-width: 600px) {
+    .container {
+        color: red;
+        display: flex;
+        justify-content: center;
+        padding-top: 100px;
+    }
+    
     span {
         color: #06283D;
-        font-size: 24px;
+        font-size: 23px;
     }
 
     input {
@@ -142,13 +185,44 @@ img {
         border-radius: 10px;
         color: #1363DF;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    footer {
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    footer h1 {
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+    }
+    
+    img {
+        width: 85px;
+        margin-right: 10px;
+    }
+    
+    i {
+        color: #fff;
+        margin-top: 5px;
+        padding: 0px 20px;
+        font-size: 25px;
     }
 }
 
+
+
 @media (min-width: 350px) and (max-width: 400px) {
+    .container {
+        color: red;
+        display: flex;
+        justify-content: center;
+        padding-top: 150px;
+    }
+    
     span {
         color: #06283D;
-        font-size: 22px;
+        font-size: 18px;
     }
 
     input {
@@ -176,9 +250,31 @@ img {
         background-color: #fff;
         text-decoration: none;
         padding: 3px 10px;
-        font-size: 25px;
+        font-size: 20px;
         border-radius: 10px;
         color: #1363DF;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    footer {
+        margin-top: 70px;
+        text-align: center;
+    }
+    
+    footer h1 {
+        color: rgb(255, 255, 255);
+        font-size: 22px;
+    }
+    
+    img {
+        width: 75px;
+        margin-right: 10px;
+    }
+    
+    i {
+        color: #fff;
+        margin-top: 5px;
+        padding: 0px 20px;
+        font-size: 23px;
     }
 }
